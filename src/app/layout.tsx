@@ -15,8 +15,8 @@ import { GeometosFont, interFont, kanitFont, MonaspaceNeonFont, russoOneFont, Ub
 import { TRPCReactProvider } from '@/trpc/react';
 
 export const metadata = {
-  title: 'LF112「@futiwolf」',
-  description: "futiowlf's personal website, A NodeJS Fullstack Developer. | Front-end Developer / Blogger",
+  title: 'Kaito',
+  description: "kaito's personal website. | Front-end Developer",
   icons: [{ rel: 'icon', url: '/favicon.ico' }],
 };
 

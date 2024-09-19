@@ -30,12 +30,12 @@ export const Live2DCore: React.FC<ILive2DCoreProps> = ({ event$, ...rest }) => {
         antialias: true,
       });
 
-      const model = await Live2DModel.from('/live2d/futiwolf/futi.model3.json', { autoInteract: false });
+      const model = await Live2DModel.from('/live2d/kaito/kaito.model3.json', { autoInteract: true });
 
-      model.scale.set(0.125);
+      model.scale.set(0.085);
 
-      model.position.x = -70;
-      model.position.y = 10;
+      model.position.x = -38;
+      model.position.y = 30;
       model.anchor.set(0, 0);
 
       pixiApp.stage.addChild(model);

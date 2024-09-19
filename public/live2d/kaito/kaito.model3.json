@@ -1,0 +1,28 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "kaito.moc3",
+		"Textures": [
+			"kaito.2048/texture_00.webp"
+		],
+		"Physics": "kaito.physics3.json",
+		"DisplayInfo": "kaito.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{ "File": "kaito.motion3.json", "FadeInTime": 0.5, "FadeOutTime": 0.5 }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}

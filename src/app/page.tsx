@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useEventEmitter } from 'ahooks';
 import { AnimatePresence, motion } from 'framer-motion';
 
-import profileImage from '@/app/assets/webp/futiwolf.webp';
+import profileImage from '@/app/assets/webp/kaito.webp';
 import { RibbonBackground } from '@/app/components/main-layout/background/ribbon';
 import { Description } from '@/app/components/main-layout/profile/introduction/description';
 import { Links } from '@/app/components/main-layout/profile/introduction/links';

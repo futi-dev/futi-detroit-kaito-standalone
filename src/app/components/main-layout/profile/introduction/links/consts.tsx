@@ -1,4 +1,4 @@
-import { IconType, SiBilibili, SiGithub, SiGmail, SiSteamdeck } from '@icons-pack/react-simple-icons';
+import { IconType, SiBilibili, SiGithub, SiGmail, SiSteam } from '@icons-pack/react-simple-icons';
 
 interface ILink {
   Icon: IconType;
@@ -9,22 +9,22 @@ interface ILink {
 export const LINKS: ILink[] = [
   {
     Icon: SiGithub,
-    href: 'https://github.com/LF112',
+    href: 'https://github.com/Ishikawa-Kaito',
     label: 'Github',
   },
   {
     Icon: SiBilibili,
-    href: 'https://space.bilibili.com/131579371',
+    href: 'https://space.bilibili.com/12153011',
     label: 'BiliBili',
   },
   {
-    Icon: SiSteamdeck,
-    href: 'https://steamcommunity.com/id/LF112',
+    Icon: SiSteam,
+    href: 'https://steamcommunity.com/id/imxzixuan',
     label: 'Steam',
   },
   {
     Icon: SiGmail,
-    href: 'mailto:lf@lf112.net',
+    href: 'mailto:x@ikaito.icu',
     label: 'Email',
   },
 ];
