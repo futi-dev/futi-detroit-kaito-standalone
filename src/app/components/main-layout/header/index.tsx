@@ -13,7 +13,7 @@ export const Header: React.FC<IHeaderProps> = memo(({ className, style }) => (
     <HeaderRibbon />
     <FUTIDynamicText
       text="重在掺和"
-      className="futi-text-lyrics my-0 select-none pl-10 font-geometos text-base text-white/55 max-sm:pl-0"
+      className="futi-text-lyrics my-0 select-none pl-10 font-geometos text-base text-[#6698ee]/75 max-sm:pl-0 dark:text-white/55"
     />
   </header>
 ));

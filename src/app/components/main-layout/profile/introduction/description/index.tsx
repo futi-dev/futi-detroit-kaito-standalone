@@ -22,7 +22,7 @@ export const Description: React.FC<IDescriptionProps> = ({ className, style }) =
   return (
     <div
       className={cn(
-        'flex h-7 min-w-[245.47px] gap-1 after:-ml-2 [&>h2]:text-lg [&>h2]:text-white/80',
+        'flex h-7 min-w-[245.47px] gap-1 after:-ml-2 [&>h2]:text-lg [&>h2]:text-[#6da5e7]/80 [&>h2]:dark:text-white/80',
         inAnimation && 'futi-cursor',
         className,
       )}

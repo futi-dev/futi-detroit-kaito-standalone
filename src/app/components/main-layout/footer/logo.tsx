@@ -22,7 +22,7 @@ export const FUTILogo: React.FC<IFUTILogoProps> = ({ className, ...rest }) => (
         {...rest}
       >
         Drawn by NAVILAB
-        <FutiIcon className="absolute h-7 [&>path]:fill-white/20" />
+        <FutiIcon className="absolute h-7 [&>path]:fill-black/20 [&>path]:dark:fill-white/20" />
       </motion.a>
     </TooltipTrigger>
     <TooltipContent sideOffset={16}>Drawn by Navigator Kepler</TooltipContent>

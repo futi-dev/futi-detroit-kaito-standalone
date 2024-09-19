@@ -27,7 +27,7 @@ export const Footer: React.FC<IFooterProps> = ({ className, style }) => (
       animate={{ opacity: 1, transition: { delay: 1.1 } }}
       transition={{ duration: 0.2 }}
     >
-      <Separator orientation="vertical" className="h-8 bg-white/20" />
+      <Separator orientation="vertical" className="h-8 bg-gray-10/20" />
     </motion.div>
     <motion.div
       initial={{ opacity: 0 }}
@@ -35,7 +35,7 @@ export const Footer: React.FC<IFooterProps> = ({ className, style }) => (
       transition={{ duration: 0.2 }}
     >
       <Separator className="mb-0.5 h-[3px] rounded bg-footer-line max-sm:my-2" />
-      <div className="flex select-none gap-1 space-x-1 text-xs max-sm:flex-col max-sm:items-center max-sm:gap-2 max-sm:pb-6 [&_a]:cursor-pointer [&_a]:font-bold [&_a]:text-white/30 [&_p]:text-white/20">
+      <div className="flex select-none gap-1 space-x-1 text-xs max-sm:flex-col max-sm:items-center max-sm:gap-2 max-sm:pb-6 [&_a]:cursor-pointer [&_a]:font-bold [&_a]:text-black/30 [&_a]:dark:text-white/30 [&_p]:text-black/20 [&_p]:dark:text-white/20">
         <p>
           Copyright &copy; 2017 - {new Date().getFullYear()}
           <FTooltip text="🙃 Independent Websites Developer" sideOffset={16}>
