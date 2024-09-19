@@ -7,7 +7,7 @@ import { useEventEmitter } from 'ahooks';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import profileImage from '@/app/assets/webp/futiwolf.webp';
-import { DetroitBackground } from '@/app/components/main-layout/background/detroit';
+import { RibbonBackground } from '@/app/components/main-layout/background/ribbon';
 import { Description } from '@/app/components/main-layout/profile/introduction/description';
 import { Links } from '@/app/components/main-layout/profile/introduction/links';
 import { Name } from '@/app/components/main-layout/profile/introduction/name';
@@ -38,7 +38,7 @@ export default function Home() {
 
   return (
     <>
-      <DetroitBackground />
+      <RibbonBackground />
       <div className="flex h-full w-full flex-col items-center justify-center gap-4 text-center">
         <ProfileWrapper
           className="futi-center relative overflow-hidden"
